@@ -1,4 +1,4 @@
-# Marvel Rivals Mod Manager
+# Marvel Rivals Mod Manager (WIP)
 
 Marvel Rivals Mod Manager (MRMM) is a Python-based tool designed to simplify the management of mods for the game Marvel Rivals. With a sleek GUI powered by customtkinter, it allows users to browse, enable, or disable .pak mod files easily.
 
