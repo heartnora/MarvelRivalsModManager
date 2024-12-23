@@ -1,0 +1,253 @@
+2024-12-23 20:11:19.101 | INFO     | x20launcher.launcher_application:__init__:1107 - ********************************* Start *********************************
+2024-12-23 20:11:19.103 | INFO     | x20launcher.launcher_application:__init__:1108 - init log
+2024-12-23 20:11:19.106 | INFO     | x20launcher.launcher_application:exec:1112 - Launcher version is 1.4.214
+2024-12-23 20:11:19.106 | INFO     | x20launcher.launcher_application:__init__:1062 - Application init start
+2024-12-23 20:11:19.237 | INFO     | x20launcher.launcher_application:__init__:73 - QMLContext init start
+2024-12-23 20:11:19.237 | INFO     | x20launcher.launcher_application:__init__:82 - Verify invite code success. don't need invite code
+2024-12-23 20:11:19.239 | INFO     | x20launcher.launcher_application:update_region:335 - Language: en_GB, Encoding: cp1252
+2024-12-23 20:11:19.239 | INFO     | x20launcher.launcher_application:update_region:340 - Local Timezone Offset: 0.0 hours
+2024-12-23 20:11:19.239 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734984679.2379272, current time:1734984679.2394514, offline marker timeout is 86400
+2024-12-23 20:11:19.240 | INFO     | x20launcher.launcher_application:check_local_ip:275 - requesting whoami URL: https://who.easebar.com/v2
+2024-12-23 20:11:19.430 | INFO     | x20launcher.launcher_application:check_local_ip:282 - whoami ret code: 200, setting env GAME_AIM_INFO
+2024-12-23 20:11:19.430 | INFO     | x20launcher.launcher_application:update_region:368 - rg is U3L@
+2024-12-23 20:11:19.430 | INFO     | x20launcher.launcher_application:update_region:375 - loc is NA
+2024-12-23 20:11:19.440 | INFO     | x20launcher.launcher_application:__init__:106 - set orbit project id x20na
+2024-12-23 20:11:19.445 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734984679.2379272, current time:1734984679.4452837, offline marker timeout is 86400
+2024-12-23 20:11:19.445 | INFO     | x20launcher.launcher_application:fire_download_patchlists:666 - Start download multi patchlists
+2024-12-23 20:11:19.445 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:11:19.446 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2024-12-23 20:11:19.446 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_release_steam
+2024-12-23 20:11:19.446 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/pc_release_steam
+2024-12-23 20:11:19.448 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/meta_steam
+2024-12-23 20:11:19.450 | INFO     | x20launcher.launcher_application:__init__:157 - QMLContext init finish
+2024-12-23 20:11:19.450 | INFO     | x20launcher.launcher_application:__init__:1079 - Application init finish
+2024-12-23 20:11:19.562 | WARNING  | x20launcher.utils.multithread_request:send_get_request:43 - request failed:https://x20na.update.easebar.com/pl/pc_release_steam, reason is HTTP Error 404: Not Found
+2024-12-23 20:11:19.653 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [WhoamiResultSucceed] Send drpf success
+2024-12-23 20:11:20.300 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindow Completed
+2024-12-23 20:11:20.300 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseView Completed
+2024-12-23 20:11:20.417 | INFO     | x20launcher.bridge.self_update_bridge:__init__:44 - SelfUpdateBridge init start
+2024-12-23 20:11:20.417 | INFO     | x20launcher.bridge.self_update_bridge:__init__:49 - SelfUpdateBridge init finish
+2024-12-23 20:11:20.417 | INFO     | x20launcher.bridge.download_bridge:__init__:128 - DownloadBridge init start
+2024-12-23 20:11:20.419 | INFO     | x20launcher.bridge.download_bridge:__init__:153 - DownloadBridge init finish
+2024-12-23 20:11:20.419 | INFO     | x20launcher.bridge.repair_bridge:__init__:44 - RepairBridge init start
+2024-12-23 20:11:20.419 | INFO     | x20launcher.bridge.repair_bridge:__init__:53 - RepairBridge init finish
+2024-12-23 20:11:20.419 | INFO     | x20launcher.bridge.settings_bridge:__init__:41 - SettingsBridge init start
+2024-12-23 20:11:20.426 | INFO     | x20launcher.bridge.settings_bridge:__init__:83 - SettingsBridge init finish
+2024-12-23 20:11:20.454 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindowLazyLoadItem Completed
+2024-12-23 20:11:22.004 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseViewLazyLoadItem Completed
+2024-12-23 20:11:22.036 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:263 - Clear LegacySaved
+2024-12-23 20:11:22.036 | INFO     | x20launcher.bridge.download_bridge:_start_poll_check_game_exe_impl:206 - Check game C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel.exe is exists: False, and version is 
+2024-12-23 20:11:22.036 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:268 - Clear outdate game log
+2024-12-23 20:11:22.129 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SettingsDialog Completed
+2024-12-23 20:11:22.129 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseCombobox Completed
+2024-12-23 20:11:22.130 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: QuitDialog Completed
+2024-12-23 20:11:22.130 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: DownloadProgress Completed
+2024-12-23 20:11:22.130 | INFO     | x20launcher.launcher_application:check_headcode:687 - start check headcode
+2024-12-23 20:11:22.130 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SelfUpdateView Completed
+2024-12-23 20:11:22.131 | INFO     | x20launcher.launcher_application:check_headcode:707 - start try get headcode content
+2024-12-23 20:11:22.131 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:11:22.131 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_create_steam_id_txt
+2024-12-23 20:11:22.131 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_clear_fulldump
+2024-12-23 20:11:22.267 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_create_steam_id_txt
+2024-12-23 20:11:22.267 | INFO     | x20launcher.launcher_application:<module>:20 - Create steam id txt start
+2024-12-23 20:11:22.267 | ERROR    | x20launcher.launcher_application:create_steam_id_txt:16 - Failed to create C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel\Binaries\Win64\steam_appid.txt, Error: [Errno 2] No such file or directory: 'C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\MarvelGame\\Marvel\\Binaries\\Win64\\steam_appid.txt'
+2024-12-23 20:11:22.267 | INFO     | x20launcher.launcher_application:<module>:22 - Create steam id txt done
+2024-12-23 20:11:22.274 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_clear_fulldump
+2024-12-23 20:11:22.274 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:2 - Start clear fulldump
+2024-12-23 20:11:22.274 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:31 - End clear fulldump
+2024-12-23 20:11:22.333 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [OpenLauncher] Send drpf success
+2024-12-23 20:11:39.065 | INFO     | x20launcher.launcher_application:exec:1120 - ********************************* End, return code: 0 *********************************
+
+[2024-12-23 20:11:19.433] [launcher] [info] LauncherApplication initialize
+[2024-12-23 20:11:19.441] [launcher] [info] "C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\temp\\.updater" deleted successfully.
+2024-12-23 20:16:59.047 | INFO     | x20launcher.launcher_application:__init__:1107 - ********************************* Start *********************************
+2024-12-23 20:16:59.047 | INFO     | x20launcher.launcher_application:__init__:1108 - init log
+2024-12-23 20:16:59.051 | INFO     | x20launcher.launcher_application:exec:1112 - Launcher version is 1.4.214
+2024-12-23 20:16:59.051 | INFO     | x20launcher.launcher_application:__init__:1062 - Application init start
+2024-12-23 20:16:59.206 | INFO     | x20launcher.launcher_application:__init__:73 - QMLContext init start
+2024-12-23 20:16:59.206 | INFO     | x20launcher.launcher_application:__init__:82 - Verify invite code success. don't need invite code
+2024-12-23 20:16:59.206 | INFO     | x20launcher.launcher_application:update_region:335 - Language: en_GB, Encoding: cp1252
+2024-12-23 20:16:59.206 | INFO     | x20launcher.launcher_application:update_region:340 - Local Timezone Offset: 0.0 hours
+2024-12-23 20:16:59.206 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985019.206486, current time:1734985019.206486, offline marker timeout is 86400
+2024-12-23 20:16:59.207 | INFO     | x20launcher.launcher_application:check_local_ip:275 - requesting whoami URL: https://who.easebar.com/v2
+2024-12-23 20:16:59.364 | INFO     | x20launcher.launcher_application:check_local_ip:282 - whoami ret code: 200, setting env GAME_AIM_INFO
+2024-12-23 20:16:59.364 | INFO     | x20launcher.launcher_application:update_region:368 - rg is U3L@
+2024-12-23 20:16:59.364 | INFO     | x20launcher.launcher_application:update_region:375 - loc is NA
+2024-12-23 20:16:59.374 | INFO     | x20launcher.launcher_application:__init__:106 - set orbit project id x20na
+2024-12-23 20:16:59.379 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985019.206486, current time:1734985019.3790119, offline marker timeout is 86400
+2024-12-23 20:16:59.379 | INFO     | x20launcher.launcher_application:fire_download_patchlists:666 - Start download multi patchlists
+2024-12-23 20:16:59.379 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:16:59.380 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2024-12-23 20:16:59.380 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_release_steam
+2024-12-23 20:16:59.382 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/pc_release_steam
+2024-12-23 20:16:59.382 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/meta_steam
+2024-12-23 20:16:59.383 | INFO     | x20launcher.launcher_application:__init__:157 - QMLContext init finish
+2024-12-23 20:16:59.383 | INFO     | x20launcher.launcher_application:__init__:1079 - Application init finish
+2024-12-23 20:16:59.518 | WARNING  | x20launcher.utils.multithread_request:send_get_request:43 - request failed:https://x20na.update.easebar.com/pl/pc_release_steam, reason is HTTP Error 404: Not Found
+2024-12-23 20:16:59.597 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [WhoamiResultSucceed] Send drpf success
+2024-12-23 20:17:00.340 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindow Completed
+2024-12-23 20:17:00.340 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseView Completed
+2024-12-23 20:17:00.455 | INFO     | x20launcher.bridge.self_update_bridge:__init__:44 - SelfUpdateBridge init start
+2024-12-23 20:17:00.455 | INFO     | x20launcher.bridge.self_update_bridge:__init__:49 - SelfUpdateBridge init finish
+2024-12-23 20:17:00.455 | INFO     | x20launcher.bridge.download_bridge:__init__:128 - DownloadBridge init start
+2024-12-23 20:17:00.456 | INFO     | x20launcher.bridge.download_bridge:__init__:153 - DownloadBridge init finish
+2024-12-23 20:17:00.456 | INFO     | x20launcher.bridge.repair_bridge:__init__:44 - RepairBridge init start
+2024-12-23 20:17:00.456 | INFO     | x20launcher.bridge.repair_bridge:__init__:53 - RepairBridge init finish
+2024-12-23 20:17:00.456 | INFO     | x20launcher.bridge.settings_bridge:__init__:41 - SettingsBridge init start
+2024-12-23 20:17:00.464 | INFO     | x20launcher.bridge.settings_bridge:__init__:83 - SettingsBridge init finish
+2024-12-23 20:17:00.495 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindowLazyLoadItem Completed
+2024-12-23 20:17:02.215 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseViewLazyLoadItem Completed
+2024-12-23 20:17:02.238 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:263 - Clear LegacySaved
+2024-12-23 20:17:02.238 | INFO     | x20launcher.bridge.download_bridge:_start_poll_check_game_exe_impl:206 - Check game C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel.exe is exists: False, and version is 
+2024-12-23 20:17:02.238 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:268 - Clear outdate game log
+2024-12-23 20:17:02.344 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SettingsDialog Completed
+2024-12-23 20:17:02.344 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseCombobox Completed
+2024-12-23 20:17:02.344 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: QuitDialog Completed
+2024-12-23 20:17:02.344 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: DownloadProgress Completed
+2024-12-23 20:17:02.344 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SelfUpdateView Completed
+2024-12-23 20:17:02.344 | INFO     | x20launcher.launcher_application:check_headcode:687 - start check headcode
+2024-12-23 20:17:02.345 | INFO     | x20launcher.launcher_application:check_headcode:707 - start try get headcode content
+2024-12-23 20:17:02.345 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:17:02.345 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_create_steam_id_txt
+2024-12-23 20:17:02.345 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_clear_fulldump
+2024-12-23 20:17:02.486 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_create_steam_id_txt
+2024-12-23 20:17:02.488 | INFO     | x20launcher.launcher_application:<module>:20 - Create steam id txt start
+2024-12-23 20:17:02.488 | ERROR    | x20launcher.launcher_application:create_steam_id_txt:16 - Failed to create C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel\Binaries\Win64\steam_appid.txt, Error: [Errno 2] No such file or directory: 'C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\MarvelGame\\Marvel\\Binaries\\Win64\\steam_appid.txt'
+2024-12-23 20:17:02.489 | INFO     | x20launcher.launcher_application:<module>:22 - Create steam id txt done
+2024-12-23 20:17:02.497 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_clear_fulldump
+2024-12-23 20:17:02.498 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:2 - Start clear fulldump
+2024-12-23 20:17:02.498 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:31 - End clear fulldump
+2024-12-23 20:17:02.537 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [OpenLauncher] Send drpf success
+2024-12-23 20:19:12.559 | INFO     | x20launcher.launcher_application:exec:1120 - ********************************* End, return code: 0 *********************************
+
+[2024-12-23 20:16:59.366] [launcher] [info] LauncherApplication initialize
+[2024-12-23 20:16:59.375] [launcher] [info] "C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\temp\\.updater" deleted successfully.
+2024-12-23 20:28:57.653 | INFO     | x20launcher.launcher_application:__init__:1107 - ********************************* Start *********************************
+2024-12-23 20:28:57.653 | INFO     | x20launcher.launcher_application:__init__:1108 - init log
+2024-12-23 20:28:57.658 | INFO     | x20launcher.launcher_application:exec:1112 - Launcher version is 1.4.214
+2024-12-23 20:28:57.658 | INFO     | x20launcher.launcher_application:__init__:1062 - Application init start
+2024-12-23 20:28:57.794 | INFO     | x20launcher.launcher_application:__init__:73 - QMLContext init start
+2024-12-23 20:28:57.794 | INFO     | x20launcher.launcher_application:__init__:82 - Verify invite code success. don't need invite code
+2024-12-23 20:28:57.796 | INFO     | x20launcher.launcher_application:update_region:335 - Language: en_GB, Encoding: cp1252
+2024-12-23 20:28:57.796 | INFO     | x20launcher.launcher_application:update_region:340 - Local Timezone Offset: 0.0 hours
+2024-12-23 20:28:57.796 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985737.796269, current time:1734985737.796269, offline marker timeout is 86400
+2024-12-23 20:28:57.797 | INFO     | x20launcher.launcher_application:check_local_ip:275 - requesting whoami URL: https://who.easebar.com/v2
+2024-12-23 20:28:57.972 | INFO     | x20launcher.launcher_application:check_local_ip:282 - whoami ret code: 200, setting env GAME_AIM_INFO
+2024-12-23 20:28:57.972 | INFO     | x20launcher.launcher_application:update_region:368 - rg is U3L@
+2024-12-23 20:28:57.972 | INFO     | x20launcher.launcher_application:update_region:375 - loc is NA
+2024-12-23 20:28:57.982 | INFO     | x20launcher.launcher_application:__init__:106 - set orbit project id x20na
+2024-12-23 20:28:57.988 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985737.796269, current time:1734985737.9871724, offline marker timeout is 86400
+2024-12-23 20:28:57.988 | INFO     | x20launcher.launcher_application:fire_download_patchlists:666 - Start download multi patchlists
+2024-12-23 20:28:57.988 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:28:57.990 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2024-12-23 20:28:57.990 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_release_steam
+2024-12-23 20:28:57.991 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/pc_release_steam
+2024-12-23 20:28:57.992 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/meta_steam
+2024-12-23 20:28:57.994 | INFO     | x20launcher.launcher_application:__init__:157 - QMLContext init finish
+2024-12-23 20:28:57.994 | INFO     | x20launcher.launcher_application:__init__:1079 - Application init finish
+2024-12-23 20:28:58.118 | WARNING  | x20launcher.utils.multithread_request:send_get_request:43 - request failed:https://x20na.update.easebar.com/pl/pc_release_steam, reason is HTTP Error 404: Not Found
+2024-12-23 20:28:58.210 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [WhoamiResultSucceed] Send drpf success
+2024-12-23 20:28:58.877 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindow Completed
+2024-12-23 20:28:58.877 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseView Completed
+2024-12-23 20:28:58.994 | INFO     | x20launcher.bridge.self_update_bridge:__init__:44 - SelfUpdateBridge init start
+2024-12-23 20:28:58.994 | INFO     | x20launcher.bridge.self_update_bridge:__init__:49 - SelfUpdateBridge init finish
+2024-12-23 20:28:58.994 | INFO     | x20launcher.bridge.download_bridge:__init__:128 - DownloadBridge init start
+2024-12-23 20:28:58.996 | INFO     | x20launcher.bridge.download_bridge:__init__:153 - DownloadBridge init finish
+2024-12-23 20:28:58.996 | INFO     | x20launcher.bridge.repair_bridge:__init__:44 - RepairBridge init start
+2024-12-23 20:28:58.996 | INFO     | x20launcher.bridge.repair_bridge:__init__:53 - RepairBridge init finish
+2024-12-23 20:28:58.996 | INFO     | x20launcher.bridge.settings_bridge:__init__:41 - SettingsBridge init start
+2024-12-23 20:28:59.002 | INFO     | x20launcher.bridge.settings_bridge:__init__:83 - SettingsBridge init finish
+2024-12-23 20:28:59.031 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindowLazyLoadItem Completed
+2024-12-23 20:29:00.652 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseViewLazyLoadItem Completed
+2024-12-23 20:29:00.673 | INFO     | x20launcher.bridge.download_bridge:_start_poll_check_game_exe_impl:206 - Check game C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel.exe is exists: False, and version is 
+2024-12-23 20:29:00.674 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:263 - Clear LegacySaved
+2024-12-23 20:29:00.674 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:268 - Clear outdate game log
+2024-12-23 20:29:00.770 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SettingsDialog Completed
+2024-12-23 20:29:00.770 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseCombobox Completed
+2024-12-23 20:29:00.770 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: QuitDialog Completed
+2024-12-23 20:29:00.770 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: DownloadProgress Completed
+2024-12-23 20:29:00.770 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SelfUpdateView Completed
+2024-12-23 20:29:00.770 | INFO     | x20launcher.launcher_application:check_headcode:687 - start check headcode
+2024-12-23 20:29:00.772 | INFO     | x20launcher.launcher_application:check_headcode:707 - start try get headcode content
+2024-12-23 20:29:00.772 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:29:00.772 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_create_steam_id_txt
+2024-12-23 20:29:00.772 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_clear_fulldump
+2024-12-23 20:29:00.912 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_create_steam_id_txt
+2024-12-23 20:29:00.912 | INFO     | x20launcher.launcher_application:<module>:20 - Create steam id txt start
+2024-12-23 20:29:00.912 | ERROR    | x20launcher.launcher_application:create_steam_id_txt:16 - Failed to create C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel\Binaries\Win64\steam_appid.txt, Error: [Errno 2] No such file or directory: 'C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\MarvelGame\\Marvel\\Binaries\\Win64\\steam_appid.txt'
+2024-12-23 20:29:00.913 | INFO     | x20launcher.launcher_application:<module>:22 - Create steam id txt done
+2024-12-23 20:29:00.919 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_clear_fulldump
+2024-12-23 20:29:00.920 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:2 - Start clear fulldump
+2024-12-23 20:29:00.921 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:31 - End clear fulldump
+2024-12-23 20:29:00.991 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [OpenLauncher] Send drpf success
+2024-12-23 20:29:55.797 | INFO     | x20launcher.launcher_application:__init__:1107 - ********************************* Start *********************************
+2024-12-23 20:29:55.797 | INFO     | x20launcher.launcher_application:__init__:1108 - init log
+2024-12-23 20:29:55.800 | INFO     | x20launcher.launcher_application:exec:1112 - Launcher version is 1.4.214
+2024-12-23 20:29:55.800 | INFO     | x20launcher.launcher_application:__init__:1062 - Application init start
+2024-12-23 20:29:55.937 | INFO     | x20launcher.launcher_application:__init__:1068 - Application set singleton flag. another application already running, do not run again
+2024-12-23 20:29:58.831 | INFO     | x20launcher.launcher_application:exec:1120 - ********************************* End, return code: 0 *********************************
+
+[2024-12-23 20:28:57.974] [launcher] [info] LauncherApplication initialize
+[2024-12-23 20:28:57.983] [launcher] [info] "C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\temp\\.updater" deleted successfully.
+2024-12-23 20:30:01.776 | INFO     | x20launcher.launcher_application:__init__:1107 - ********************************* Start *********************************
+2024-12-23 20:30:01.776 | INFO     | x20launcher.launcher_application:__init__:1108 - init log
+2024-12-23 20:30:01.780 | INFO     | x20launcher.launcher_application:exec:1112 - Launcher version is 1.4.214
+2024-12-23 20:30:01.780 | INFO     | x20launcher.launcher_application:__init__:1062 - Application init start
+2024-12-23 20:30:01.905 | INFO     | x20launcher.launcher_application:__init__:73 - QMLContext init start
+2024-12-23 20:30:01.905 | INFO     | x20launcher.launcher_application:__init__:82 - Verify invite code success. don't need invite code
+2024-12-23 20:30:01.907 | INFO     | x20launcher.launcher_application:update_region:335 - Language: en_GB, Encoding: cp1252
+2024-12-23 20:30:01.907 | INFO     | x20launcher.launcher_application:update_region:340 - Local Timezone Offset: 0.0 hours
+2024-12-23 20:30:01.907 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985801.907226, current time:1734985801.907226, offline marker timeout is 86400
+2024-12-23 20:30:01.908 | INFO     | x20launcher.launcher_application:check_local_ip:275 - requesting whoami URL: https://who.easebar.com/v2
+2024-12-23 20:30:02.092 | INFO     | x20launcher.launcher_application:check_local_ip:282 - whoami ret code: 200, setting env GAME_AIM_INFO
+2024-12-23 20:30:02.092 | INFO     | x20launcher.launcher_application:update_region:368 - rg is U3L@
+2024-12-23 20:30:02.092 | INFO     | x20launcher.launcher_application:update_region:375 - loc is NA
+2024-12-23 20:30:02.102 | INFO     | x20launcher.launcher_application:__init__:106 - set orbit project id x20na
+2024-12-23 20:30:02.106 | INFO     | x20launcher.launcher_application:check_offline_marker:652 - offline marker time is 1734985801.907226, current time:1734985802.106924, offline marker timeout is 86400
+2024-12-23 20:30:02.106 | INFO     | x20launcher.launcher_application:fire_download_patchlists:666 - Start download multi patchlists
+2024-12-23 20:30:02.106 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:30:02.106 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_headcode_steam
+2024-12-23 20:30:02.108 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/launcher_release_steam
+2024-12-23 20:30:02.108 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/pc_release_steam
+2024-12-23 20:30:02.108 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.update.easebar.com/pl/meta_steam
+2024-12-23 20:30:02.110 | INFO     | x20launcher.launcher_application:__init__:157 - QMLContext init finish
+2024-12-23 20:30:02.111 | INFO     | x20launcher.launcher_application:__init__:1079 - Application init finish
+2024-12-23 20:30:02.238 | WARNING  | x20launcher.utils.multithread_request:send_get_request:43 - request failed:https://x20na.update.easebar.com/pl/pc_release_steam, reason is HTTP Error 404: Not Found
+2024-12-23 20:30:02.309 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [WhoamiResultSucceed] Send drpf success
+2024-12-23 20:30:02.970 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindow Completed
+2024-12-23 20:30:02.971 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseView Completed
+2024-12-23 20:30:03.087 | INFO     | x20launcher.bridge.self_update_bridge:__init__:44 - SelfUpdateBridge init start
+2024-12-23 20:30:03.087 | INFO     | x20launcher.bridge.self_update_bridge:__init__:49 - SelfUpdateBridge init finish
+2024-12-23 20:30:03.087 | INFO     | x20launcher.bridge.download_bridge:__init__:128 - DownloadBridge init start
+2024-12-23 20:30:03.087 | INFO     | x20launcher.bridge.download_bridge:__init__:153 - DownloadBridge init finish
+2024-12-23 20:30:03.087 | INFO     | x20launcher.bridge.repair_bridge:__init__:44 - RepairBridge init start
+2024-12-23 20:30:03.088 | INFO     | x20launcher.bridge.repair_bridge:__init__:53 - RepairBridge init finish
+2024-12-23 20:30:03.088 | INFO     | x20launcher.bridge.settings_bridge:__init__:41 - SettingsBridge init start
+2024-12-23 20:30:03.093 | INFO     | x20launcher.bridge.settings_bridge:__init__:83 - SettingsBridge init finish
+2024-12-23 20:30:03.122 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: MainWindowLazyLoadItem Completed
+2024-12-23 20:30:04.687 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseViewLazyLoadItem Completed
+2024-12-23 20:30:04.719 | INFO     | x20launcher.bridge.download_bridge:_start_poll_check_game_exe_impl:206 - Check game C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel.exe is exists: False, and version is 
+2024-12-23 20:30:04.719 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:263 - Clear LegacySaved
+2024-12-23 20:30:04.720 | INFO     | x20launcher.bridge.download_bridge:_clear_outdate_game_log:268 - Clear outdate game log
+2024-12-23 20:30:04.812 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SettingsDialog Completed
+2024-12-23 20:30:04.812 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: BaseCombobox Completed
+2024-12-23 20:30:04.812 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: QuitDialog Completed
+2024-12-23 20:30:04.812 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: DownloadProgress Completed
+2024-12-23 20:30:04.813 | INFO     | x20launcher.qt_qml.utils:message_handler:19 - qml: SelfUpdateView Completed
+2024-12-23 20:30:04.813 | INFO     | x20launcher.launcher_application:check_headcode:687 - start check headcode
+2024-12-23 20:30:04.813 | INFO     | x20launcher.launcher_application:check_headcode:707 - start try get headcode content
+2024-12-23 20:30:04.813 | INFO     | x20launcher.utils.multithread_request:send_requests:47 - Start making multi requests
+2024-12-23 20:30:04.813 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_create_steam_id_txt
+2024-12-23 20:30:04.815 | INFO     | x20launcher.utils.multithread_request:send_get_request:26 - start sending request: https://x20na.gph.easebar.com/headcode/launcher/steam/headcode_clear_fulldump
+2024-12-23 20:30:04.965 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_create_steam_id_txt
+2024-12-23 20:30:04.965 | INFO     | x20launcher.launcher_application:<module>:20 - Create steam id txt start
+2024-12-23 20:30:04.965 | ERROR    | x20launcher.launcher_application:create_steam_id_txt:16 - Failed to create C:\Users\Kiman\Downloads\MarvelRivalsModManager\MarvelGame\Marvel\Binaries\Win64\steam_appid.txt, Error: [Errno 2] No such file or directory: 'C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\MarvelGame\\Marvel\\Binaries\\Win64\\steam_appid.txt'
+2024-12-23 20:30:04.965 | INFO     | x20launcher.launcher_application:<module>:22 - Create steam id txt done
+2024-12-23 20:30:04.975 | INFO     | x20launcher.launcher_application:check_headcode:730 - start exec headcode headcode_clear_fulldump
+2024-12-23 20:30:04.975 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:2 - Start clear fulldump
+2024-12-23 20:30:04.976 | INFO     | x20launcher.launcher_application:headcode_clear_fulldump:31 - End clear fulldump
+2024-12-23 20:30:05.014 | INFO     | x20launcher.utils.drpf:send_drpf_impl:92 - [OpenLauncher] Send drpf success
+2024-12-23 20:37:39.230 | INFO     | x20launcher.launcher_application:exec:1120 - ********************************* End, return code: 0 *********************************
+
+[2024-12-23 20:30:02.093] [launcher] [info] LauncherApplication initialize
+[2024-12-23 20:30:02.102] [launcher] [info] "C:\\Users\\Kiman\\Downloads\\MarvelRivalsModManager\\temp\\.updater" deleted successfully.
