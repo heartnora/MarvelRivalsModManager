@@ -26,57 +26,48 @@ Required Libraries:
 
 ```pip install customtkinter```
 
+#### Or install the executable file.
+
 # Setup
 
 ### Clone the repository:
 
-git clone https://github.com/username/marvel-rivals-mod-manager.git
+git clone @ ```https://github.com/heartnora/marvelrivalsmodmanager.git```
 
 Navigate to the project folder:
 
-cd marvel-rivals-mod-manager
+```cd marvel-rivals-mod-manager```
 
-Run the application:
+## Run the application:
 
-python mod_manager.py
+```python mod_manager.py```
 
-Usage
+# Usage
 
-Select Game Executable:
-
+### Select Game Executable:
 Click Browse under "Mod Location" to select the game executable (e.g., .exe file).
 
-Set Mod Folder:
-
+### Set Mod Folder:
 Use Browse or Auto to define the mod folder location.
-
 Automatically lists all .pak files present in the folder.
 
-Enable/Disable Mods:
-
+### Enable/Disable Mods:
 Use checkboxes to enable or disable specific mods.
-
 Disabled mods are renamed with a .disabled extension.
 
-Save Preferences:
-
+### Save Preferences:
 The selected mod folder is saved and loaded automatically when reopening the app.
 
-Contributing
-
+### Contributing:
 Contributions are welcome! Feel free to submit pull requests for new features, bug fixes, or enhancements.
 
-License
-
+# License
 This project has no liscence.
 
-Acknowledgements
-
-- customtkinter for the modern GUI framework.
-
+# Acknowledgements
+Customtkinter has been used for the modern GUI framework.
 Open-source contributors for inspiration and libraries.
 
-Issues
-
+# Issues
 For any issues or feature requests, please open an issue on the GitHub repository.
 
