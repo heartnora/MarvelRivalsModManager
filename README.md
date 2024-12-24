@@ -32,7 +32,7 @@ Required Libraries:
 
 ### Clone the repository:
 
-git clone @ ```https://github.com/heartnora/marvelrivalsmodmanager.git```
+git clone @ [Marvel Rivals Mod Manager](https://github.com/heartnora/MarvelRivalsModManager/blob/main/)
 
 Navigate to the project folder:
 
@@ -62,7 +62,7 @@ The selected mod folder is saved and loaded automatically when reopening the app
 Contributions are welcome! Feel free to submit pull requests for new features, bug fixes, or enhancements.
 
 # License
-This project has no liscence.
+This project has no liscence, is a project, and is for anyone and everyone to edit and use with due credit to myself.
 
 # Acknowledgements
 Customtkinter has been used for the modern GUI framework.
